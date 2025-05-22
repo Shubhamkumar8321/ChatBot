@@ -53,8 +53,6 @@ body {
   background: #f1f0f0;
   align-self: flex-start;
 }
-
-/* Buttons container just above the input */
 #button-options {
   display: flex;
   flex-wrap: wrap;
@@ -84,8 +82,6 @@ body {
 #button-options button:hover {
   background: #2980b9;
 }
-
-/* Input form */
 form#message-form {
   display: flex;
   padding: 10px 15px;
@@ -118,8 +114,6 @@ form#message-form {
 #message-form button:hover {
   background: #0056b3;
 }
-
-/* Responsive tweaks for small screens */
 @media (max-width: 480px) {
   .chat-container {
     height: 95vh;
